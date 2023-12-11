@@ -489,6 +489,7 @@
     padding-top: 10px;
 }
 .product__count {
+    display: flex;
     padding-top: 10px;
     font-size: 2.5rem;
 }
