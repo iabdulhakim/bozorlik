@@ -20,58 +20,58 @@
     <main>
         <div class="main-container container">
             <section class="main">
-                <ul class="cards">
-                    <li class="cards-item tomato-card">
+                <div class="cards">
+                    <div class="cards-item tomato-card">
                         <img src="./images/tomato.png" alt="" class="product__img" height="90px" width="93px">
                         <h2 class="product__name">Pomidor</h2>
-                        <h3 class="product__price">10 000 uzs</h3>
-                        <h2 class="product__count"><span>0</span> Kg</h2>
-                        <span>
-                            <button class="product-minus">-</button>
+                        <span id="tomatoPrice" class="product__price">10000</span>
+                        <div class="product-num">
                             <button class="product-plus">+</button>
-                        </span>
-                    </li>
-                    <li class="cards-item potato-card">
-                        <img src="./images/potato.png" alt="" class="product__img" height="75px" width="120px">
+                            <div class="product__count">0</div>
+                            <button class="product-minus">-</button>
+                        </div>
+                    </div>
+                    <div class="cards-item potato-card">
+                        <img src="./images/potato.png" alt="" class="product__img" height="70px" width="110px">
                         <h2 class="product__name">Kartoshka</h2>
-                        <h3 class="product__price">5 000 uzs</h3>
-                        <h2 class="product__count"><span>0</span> Kg</h2>
-                        <span>
-                            <button class="product-minus">-</button>
+                        <span id="potatoPrice" class="product__price">5000</span>
+                        <div class="product-num">
                             <button class="product-plus">+</button>
-                        </span>
-                    </li>
-                    <li class="cards-item carrot-card">
+                            <div class="product__count">0</div>
+                            <button class="product-minus">-</button>
+                        </div>
+                    </div>
+                    <div class="cards-item carrot-card">
                         <img src="./images/carrot.png" alt="" class="product__img" height="75px" width="120px">
                         <h2 class="product__name">Sabzi</h2>
-                        <h3 class="product__price">4 000 uzs</h3>
-                        <h2 class="product__count"><span>0</span> Kg</h2>
-                        <span>
-                            <button class="product-minus">-</button>
+                        <span id="carrotPrice" class="product__price">7000</span>
+                        <div class="product-num">
                             <button class="product-plus">+</button>
-                        </span>
-                    </li>
-                    <li class="cards-item onion-card">
+                            <div class="product__count">0</div>
+                            <button class="product-minus">-</button>
+                        </div>
+                    </div>
+                    <div class="cards-item onion-card">
                         <img src="./images/onion.png" alt="" class="product__img" height="90px" width="110px">
                         <h2 class="product__name">Piyoz</h2>
-                        <h3 class="product__price">5 000</h3>
-                        <h2 class="product__count"><span>0</span> Kg</h2>
-                        <span>
-                            <button class="product-minus">-</button>
+                        <span id="onionPrice" class="product__price">5000</span>
+                        <div class="product-num">
                             <button class="product-plus">+</button>
-                        </span>
-                    </li>
-                    <li class="cards-item rice-card">
+                            <div class="product__count">0</div>
+                            <button class="product-minus">-</button>
+                        </div>
+                    </div>
+                    <div class="cards-item rice-card">
                         <img src="./images/rice.png" alt="" class="product__img" height="85px" width="87px">
                         <h2 class="product__name">Guruch</h2>
-                        <h3 class="product__price">20 000 uzs</h3>
-                        <h2 class="product__count"><span>0</span> Kg</h2>
-                        <span>
-                            <button class="product-minus">-</button>
+                        <span id="ricePrice" class="product__price">20000</span>
+                        <div class="product-num">
                             <button class="product-plus">+</button>
-                        </span>
-                    </li>
-                </ul>
+                            <div class="product__count">0</div>
+                            <button class="product-minus">-</button>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
@@ -82,20 +82,16 @@
         <div class="footer-container container">
             <div class="market-list">
                 <h3>Ro'yxat:</h3>
-                <i>Piyoz: 4kg</i>
+                <i>Sabzi: 4kg</i>
                 <i>Guruch: 2kg</i>
                 <i>Pomidor: 4kg</i>
                 <i>Piyoz: 3kg</i>
                 <i>Kartoshka: 7kg</i>
             </div>
-            <h2 class="remain-money">Qolgan summa: <span>200 000 uzs</span></h2>
-            <div class="basket">
-                <h3>Pomidor <span>0</span> kg</h3>
-                <h3>Kartoshka <span>0</span> kg</h3>
-                <h3>Sabzi <span>0</span> kg</h3>
-                <h3>Piyoz <span>0</span> kg</h3>
-                <h3>Guruch <span>0</span> kg</h3>
-            </div>
+           <div class="remain-money">
+                <h2 class="remain-money-text">Ishlatilgan summa:</h2>
+                <h2 class="remain-money-number">0</h2>
+           </div>
         </div>
     </footer>
     <script src="./app.js"></script>

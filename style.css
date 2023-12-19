@@ -487,6 +487,17 @@
 }
 .product__price {
     padding-top: 10px;
+    font-size: 2.2rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #13183F;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.product-num{
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 .product__count {
     display: flex;
@@ -494,7 +505,7 @@
     font-size: 2.5rem;
 }
 .product-minus {
-    padding: 5px 12px;
+    padding: 5px 13px;
     border: 2px solid rgba(224, 117, 78, 0.76);
     border-radius: 45px;
     font-size: 20px;
